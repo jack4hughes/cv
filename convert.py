@@ -28,7 +28,7 @@ if __name__ == "__main__":
     #There has to be a better way to do this!
     main_body = "## Academic History:" + re.split(r'# Academic.*', file, flags=re.MULTILINE)[1]
     main_body_typst = convert_markdown_to_typst(main_body)
-    print(main_body_typst)
+    
     #quick and dirty method to isolate contact details.
     para = str(
                 [para for para in paras 
@@ -39,6 +39,8 @@ if __name__ == "__main__":
     #Editing Address out of paragraphs.
     raw_address_and_links = [line for line in para.split("\n") 
                        if "##" not in line]
+    
+    #combining address lines into a single delimited line.
     address = '"'
     for line in raw_address_and_links:
         if "[" not in line:
@@ -72,5 +74,5 @@ with open("typst_files/template.typ", "r") as typst_file:
     typst_template_string = typst_file.read()
     output = typst_template_string.format(**format_dict)
 
-with open("test.typ", "w") as test_file:
+with open("typst_files/test.typ", "w") as test_file:
     test_file.write(output)
