@@ -1,45 +1,102 @@
----
-title: CV - Jack Hughes
-...
-### Contact Details:
-210 Millwrights Place, BS1 6JZ, Bristol
-Email: jackmhughes1998@gmail.com
-Telephone: 07494878784
-[LinkedIn](https://www.linkedin.com/in/jack-hughes-latchamdirect/)
+# Jack Hughes - CV
+
+# contact details:
+210 Millwrights Place,
+BS1 6JZ,
+Bristol,
+[linkedin](https://www.linkedin.com/in/jack-hughes-latchamdirect/)
+[Github](https://github.com/jack4hughes)
 
 # Academic History:
 
-## BEng Robotics
-- Achieved 2:1 (68%) Robotics BEng Hons.
-- Dissertation topic: Designed robot control system using a mix of handheld controller input and gaze-tracking eye control using ROS2 and OpenCV. (link to dissertation here). Achieved 69%.
-- Designed embedded systems for robot control, learning about the basics of embedded programming, controlling motors and interfacing with sensors in an embedded environment. 
-- Trained and evaluated the performance of Python and MATLAB-based machine vision models for classifying and localising objects within an image using architectures like ResNet and AlexNet.
+## BEng Robotics: 2:1 (2025) {#beng-robotics}
 
-## BA Journalism:
-- Achieved a 2:2 in Broadcast Journalism (with honours)in 2022. 
-- Learned video and audio editing, as well as camera and presenting skills.
-- Worked to meet highly demanding daily deadlines.
+- Designed robot control system using handheld controller input and
+  gaze-tracking using ROS2 and OpenCV.
 
-## A-Levels:
-- BBB, Chem. Maths and Physics.
+- Designed embedded systems for robot control, requiring communication
+  between different micro-controllers using UART and interfacing with
+  digital and analog sensors.
 
-# WORK EXPERIENCE
+- Trained and evaluated the performance of machine vision models for
+  classifying and localising objects within an image.
 
-## Research Internship - Bristol Centre for Machine Vision 2024
-- Assisted with data-labelling and literature gathering for study that attempted to use eye-tracking to detect early signs of dementia and alzheimers in 
-- Conducted statistical analysis on experimental data, using parametric and non-parametric tests to check whether a specific version of a vision test triggered the [Simon Effect.](https://en.wikipedia.org/wiki/Simon_effect)
+## BA Broadcast Journalism: (2022) {#ba-journalism}
 
-## Marketing Assistant - Latcham
-- Moved Latcham from WordPress web environment to HubSpot, requiring HTML, CSS and JavaScript coding and debugging.
-- Wrote marketing copy for Latcham, improving communication, editing and rewriting webpages.
+- Learned video and audio editing, as well as camera and presenting
+  skills.
 
-## HR Assistant - Latcham
-- Moved Latcham from paper-based HR filing system to PeopleHR HR platform.
-- Processed data using Excel and Power BI, giving directors dashboards to understand the company's financial performance and the performance of individual marketing sectors.
+- Worked efficiently to meet highly demanding daily deadlines.
 
-# Extracurriculars: 
-## UWE AI:
-- Vectorised SLAM teams' fastSLAM node using NumPy, leading to 50X speedup in fastSLAM algorithm.
-- I designed an architecture that allows easy programming of linked numpy arrays within Python and NumPy. (Ask me about this; I'm pretty pleased with it!)
-- Assisted with testing of UWE Formula AI car during competion and at testing days.
-- Wrote documentation on SLAM processes and fastSLAM for incoming first years.
+# Work Experience:
+
+## Research Internship - Bristol Centre for Machine Vision (2024) {#research-internship}
+
+- Acted as research assistant for study that used eye-tracking to detect
+  early signs of dementia using an eye test designed to trigger the
+  [Simon Effect.](https://en.wikipedia.org/wiki/Simon_effect)
+
+- Conducted statistical analysis on experimental data to find effect
+  size and significance.
+
+- Completed literature review of other eye-tracking methods used to
+  detect early dementia symptoms.
+
+## Marketing Assistant - Latcham (2022 - 2025) {#marketing-assistant---latcham}
+
+- Moved Latcham from WordPress web environment to HubSpot, debugging and
+  fixing issues with HTML, CSS and JavaScript.
+
+- Wrote marketing copy for Latcham, improving communication, editing and
+  rewriting webpages.
+
+## HR Assistant - Latcham (2019 - 2022) {#hr-assistant---latcham}
+
+- Moved Latcham from paper-based HR filing system to PeopleHR HR
+  platform.
+
+- Processed data using Excel and Power BI, giving directors dashboards
+  to understand the company's financial performance and the performance
+  of individual marketing sectors.
+
+# Societies:
+
+## UWE AI Society (2024-2025): {#uwe-ai}
+
+- Designed vectorised version of SLAM mapping system using Numpy,
+  leading to 50x speedup when compared to previous Python implementation
+
+- Assisted with testing of UWE Formula AI car during competion and at
+  testing days.
+
+- Wrote documentation on fastSLAM code for incoming Formula Student
+  members.
+
+# Skills:
+
+- Embedded systems
+
+- Machine Learning
+
+- Data Analysis/Visualisation
+
+- Project planning
+
+- Systems integration
+
+- Control (Tuning and evaluation of PID, Fuzzy Logic Systems and
+  neural-net based control systems.)
+
+## Coding Languages: 
+
+- C (Embedded experience with DSPic and STM32 boards.)
+
+- Python (NumPy, Pandas, TensorFlow and MatplotLib),
+
+- MATLAB (Data Analysis, Algorithms and Data Visualisation),
+
+- Basic Rust
+
+## Languages:
+
+English, Basic German
