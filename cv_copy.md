@@ -1,12 +1,15 @@
 # Jack Hughes - CV
 
 ## contact details:
+
+07494878784
+jackmhughes1998@gmail.com
 210 Millwrights Place,
-BS1 6JZ,
 Bristol,
+BS1 6JZ,
 [linkedin](https://www.linkedin.com/in/jack-hughes-latchamdirect/)
 [Github](https://github.com/jack4hughes)
-[Email](jack4hughes@live.uwe.ac.uk)
+
 # Academic History:
 
 ## BEng Robotics: 2:1 (2025)
