@@ -24,5 +24,5 @@
     x.at(0))
   )
   let link_output = links.join(" | ")
-  return link_output
+  return [#link_output #linebreak()]
 }

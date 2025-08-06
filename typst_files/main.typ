@@ -26,7 +26,8 @@ Basically it's a competitor/attempted improvment to LaTeX.
   cv_header(
     name: "Jack Hughes",
     address: "210 Millwrights Place, BS1 6JZ, Bristol",
-    telephone: 07494878784,
+    telephone: "07494878784",
+    email: "jackmhughes1998@gmail.com",
     links: (
       "linkedin": "https://www.linkedin.com/in/jack-hughes-latchamdirect/",
       "Github": "https://github.com/jack4hughes"

@@ -8,7 +8,8 @@
 
 #let contact_details(
   address: none, 
-  telephone: none, 
+  telephone: none,
+  email: none,
   links: none) = {
     set align(right)
     [
@@ -16,6 +17,12 @@
         let parts = address.split(", ")
         parts.map(part => part.trim()).join([,#linebreak()])
         linebreak()
+      }
+      #if telephone != none {
+        [#telephone #linebreak()]
+      }
+      #if email != none {
+        [#email #linebreak()]
       }
       #if links != none {
         display_links(links)
@@ -36,7 +43,8 @@
 #let cv_header(
   name: none,
   address: none, 
-  telephone: none, 
+  telephone: none,
+  email: none,
   links: none
 ) = {
   pad(grid(
