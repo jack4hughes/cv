@@ -7,11 +7,12 @@
 }
 
 #let contact_details(
-  address: none, 
-  telephone: none,
-  email: none,
+  address: "210 Millwrights Place,  Bristol, BS1 9JZ", 
+  telephone: "07494878784",
+  email: "jackmhughes1998@gmail.com",
   links: none) = {
     set align(right)
+    set text(size: 10pt)
     [
       #if address != none {
         let parts = address.split(", ")

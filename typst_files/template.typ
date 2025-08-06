@@ -24,9 +24,9 @@ Basically it's a competitor/attempted improvment to LaTeX.
   scope: "parent",
   float: true,
   cv_header(
-    name: "Jack Hughes",
-    address: {ADDRESS},
-    telephone: {TELEPHONE},
+    name: "Jack Hughes", //TODO: need to add name finding to convert.py
+    address: none, //TODO: need to add address finding to convert.py
+    telephone: none, //TODO: need to add telephone regex to convert.py
     links: {LINKS}
 ))
 
