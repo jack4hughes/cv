@@ -1,19 +1,21 @@
 import re
 import subprocess
 
-def convert_markdown_to_typst(preprocessed_text):
+def convert_markdown_to_typst(input_text):
+    """This converts the main body of our input_text from markdown to typst using 
+    Pandoc."""
     result = subprocess.run(
         ['pandoc', '-f', 'markdown', '-t', 'typst'],
-        input=preprocessed_text,
+        input=input_text,
         text=True,  # Handle as text, not bytes
         capture_output=True,
         check=True  # Raises exception on error
     )
     return result.stdout
 
-
+#TODO: I Think I can make most of this simpler.
 if __name__ == "__main__":
-    with open("cv_copy.md") as f:
+    with open("../cv_copy.md") as f:
         heading_pattern =r'^#[^#](.*)'
         file = f.read()
     names = re.findall(heading_pattern, file, flags=re.MULTILINE)
@@ -24,6 +26,7 @@ if __name__ == "__main__":
                 file, 
                 flags=re.MULTILINE, 
                 maxsplit=3)
+    print(len(paras))
     
     #There has to be a better way to do this!
     main_body = "## Academic History:" + re.split(r'# Academic.*', file, flags=re.MULTILINE)[1]
@@ -70,9 +73,9 @@ if __name__ == "__main__":
             "MAIN_BODY_CONTENT": main_body_typst 
             }
 
-with open("typst_files/template.typ", "r") as typst_file:
+with open("template.typ", "r") as typst_file:
     typst_template_string = typst_file.read()
     output = typst_template_string.format(**format_dict)
 
-with open("typst_files/test.typ", "w") as test_file:
+with open("test.typ", "w") as test_file:
     test_file.write(output)
