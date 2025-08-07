@@ -1,6 +1,6 @@
 # Jack Hughes - CV
 
-## contact details:
+## Contact Details:
 
 07494878784
 
@@ -16,13 +16,13 @@ BS1 6JZ,
 # Academic History:
 
 ## BEng Robotics: 2:1 (2025)
-- Designed robot control system using handheld controller input and
-  gaze-tracking using ROS2 and OpenCV.
+- Designed robot control system for a Kinova Jaco assistive robotic arm 
+  using handheld controller and gaze-tracking user inputs.
 - Designed embedded systems for robot control, requiring communication
-  between different micro-controllers using UART and interfacing with
-  digital and analog sensors.
-- Trained and evaluated the performance of machine vision models for
-  classifying and localising objects within an image.
+  between different micro-controllers using UART, interfacing with
+  digital and analog sensors and hardware/software debugging.
+- Trained and evaluated the performance of machine vision models object 
+  detection and robot positioning. 
 
 ## BA Broadcast Journalism: (2022)
 - Learned video and audio editing, as well as camera and presenting
@@ -35,21 +35,18 @@ BS1 6JZ,
 - Acted as research assistant for study that used eye-tracking to detect
   early signs of dementia using an eye test designed to trigger the
   [Simon Effect.](https://en.wikipedia.org/wiki/Simon_effect)
-- Conducted statistical analysis on experimental data to find effect
-  size and significance.
-
+- Conducted statistical analysis on experimental data, finding effect size 
+  and significance using parametric and non-parametric methods.
 - Completed literature review of other eye-tracking methods used to
   detect early dementia symptoms.
 
 ## Marketing Assistant - Latcham (2022 - 2025)
-
 - Moved Latcham from WordPress web environment to HubSpot, debugging and
   fixing issues with HTML, CSS and JavaScript.
 - Wrote marketing copy for Latcham, improving communication, editing and
   rewriting webpages.
 
 ## HR Assistant - Latcham (2019 - 2022)
-
 - Moved Latcham from paper-based HR filing system to PeopleHR HR
   platform.
 - Processed data using Excel and Power BI, giving directors dashboards
@@ -67,7 +64,6 @@ BS1 6JZ,
   members.
 
 # Skills:
-
 - Embedded systems
 - Machine Learning
 - Data Analysis/Visualisation
@@ -75,9 +71,10 @@ BS1 6JZ,
 - Systems integration
 - Control (Tuning and evaluation of PID, Fuzzy Logic Systems and
   neural-net based control systems.)
+- prototype design in Solidworks.
+- Basic Prototype PCB design.
 
 ## Coding Languages: 
-
 - C (Embedded experience with DSPic and STM32 boards.)
 - Python (NumPy, Pandas, TensorFlow and MatplotLib),
 - MATLAB (Data Analysis, Algorithms and Data Visualisation),
@@ -85,5 +82,4 @@ BS1 6JZ,
 - Basic Rust
 
 ## Languages:
-
 English, Basic German
