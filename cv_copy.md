@@ -6,9 +6,7 @@
 
 jackmhughes1998@gmail.com
 
-210 Millwrights Place,
-Bristol,
-BS1 6JZ,
+BS1, Bristol
 
 [linkedin](https://www.linkedin.com/in/jack-hughes-latchamdirect/)
 [Github](https://github.com/jack4hughes)
