@@ -6,9 +6,7 @@ I want my CV to be able to be viewed in three seperate formats:
 
 I dont want to edit the CV in multiple places, so we will need to write a conversion pipeline to do this.
 
-I want the original CV file to be a single document, I dont want to mess around with multiple tags or different relational databases of skills/education entries.
-
-I dont want to call an LLM each time I make edits, so I'm using code to convert between different formats.
+The CV file should be edited in a single document; there shouldn't be a need to  mess around with multiple tags or relational databases of skills/education entries.
 
 # The Plan:
 + seperate the header section (everything before Academic History, but in reality Contact Details and the title)
