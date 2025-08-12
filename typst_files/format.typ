@@ -7,7 +7,7 @@
 }
 
 #let contact_details(
-  address: "210 Millwrights Place,  Bristol, BS1 9JZ", 
+  address: "Bristol | BS1 9JZ", 
   telephone: "07494878784",
   email: "jackmhughes1998@gmail.com",
   links: none) = {
