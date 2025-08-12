@@ -24,10 +24,15 @@ Basically it's a competitor/attempted improvment to LaTeX.
   scope: "parent",
   float: true,
   cv_header(
-    name: "Jack Hughes", //TODO: need to add name finding to convert.py
-    address: none, //TODO: need to add address finding to convert.py
-    telephone: none, //TODO: need to add telephone regex to convert.py
-    links: {LINKS}
+    name: "Jack Hughes",//TODO: need to add name finding to convert.py
+    address: "210 Millwrights Place,
+  Bristol, 
+  BS1 6JZ", //TODO: need to add address finding to convert.py
+    telephone: "07494878784", //TODO: need to add telephone regex to convert.py
+    links: (
+      linkedin: "https://www.linkedin.com/in/jack-hughes-latchamdirect/",
+      github: "https://github.com/jack4hughes"
+    )
 ))
 
 
