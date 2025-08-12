@@ -2,7 +2,9 @@
 
 This repository contains my CV Formatter and my CV!
 
-If you have ever needed to keep multiple versions of your CV up to date, you might know that it's a hassle. If you make a change to the CV document that you send to recruiters, it's easy to forget to make that change to the CV that's displayed on your webpage. This CV Compiler is designed to change that, allowing for easy writing and editing using a simple Markdown file, but rich and flexible formatting for the web and PDF.
+If you have ever needed to keep multiple versions of your CV up to date, you might know that it's a hassle. If you make a change to the CV document that you send to recruiters, it's easy to forget to make that change to the CV that's displayed on your webpage. This CV Compiler is designed to solve that problem, allowing for easy writing and editing using a simple Markdown file, but rich and flexible formatting for the web and PDF.
+
+It's also designed to let me concentrate on writing a CV instead of formatting it by completely separating the writing and formatting tasks. It allows me to host my CV on GitHub in a Markdown document.
 
 ```mermaid
 ---
@@ -11,17 +13,24 @@ title: High-level Dataflow for CV formatter.
 graph TB
 	markdown[markdown file]
 	pdf[CV PDF]
-	HTML[HTML snippet]
-	webpage
+	Typst_converter(Typst Converter)
+	Typst_document(Typst Document)
+	Typst_compiler(Typst Compiler)
+	HTML_converter(HTML Converter)
+	HTML_template[HTML Template - Jinja]
+	Flask(Flask backend)
+	Webpage
 	
-	markdown -- HTML converter --> HTML --  flask --> webpage
-	markdown -- Typst converter --> typst[Typst markdown] -- typst compiler --> pdf
+	markdown --> HTML_converter -->  HTML_template --> Flask --> Webpage
+	markdown --> Typst_converter -->  Typst_document --> Typst_compiler --> pdf
 ```
 
 ## Requirements:
 
-To run this, you'll need Python 3.8 or newer, the re Python library, Pandoc and the Typst compiler installed. 
+To run this, you'll need Python 3.8 or newer, the [`re`](https://docs.python.org/3/library/re.html) Python library (which handles regular expressions), [Pandoc](https://pandoc.org/), and the [Typst](https://typst.app/) compiler installed. 
 
 ### Using this with your own CV:
+Currently, this isn't easy to use with your CV. I'm working on changing this, but it's not a high-priority item (I have to apply for jobs, and my details don't change much).
+If you want to use it anyway, go ahead! You can change the personal details included in the  `typst_files/header.typ` section of this document (the address field is the most obvious thing to change), and use the `cv_copy.md` file to change the copy of your CV.
 
-You'll need to copy the entire repository and install all requirements. Once this is done, call `python3 convert.py` and your code will run! This will generate an HTML snippet and a Typst markdown file (at the moment, just a Typst markdown file, HTML conversion is coming soon!). To compile the Typst file, just run `typst compile <FILENAME>. This will convert your typst file to a PDF.
+Once you are done editing, you can compile, make sure you have installed all the requirements you need, and then run `python3 convert.py`. This will convert the document, compile a PDF and save it
