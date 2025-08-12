@@ -29,8 +29,16 @@ graph TB
 
 To run this, you'll need Python 3.8 or newer, the [`re`](https://docs.python.org/3/library/re.html) Python library (which handles regular expressions), [Pandoc](https://pandoc.org/), and the [Typst](https://typst.app/) compiler installed. 
 
-### Using this with your own CV:
+## Using this with your own CV:
 Currently, this isn't easy to use with your CV. I'm working on changing this, but it's not a high-priority item (I have to apply for jobs, and my details don't change much).
 If you want to use it anyway, go ahead! You can change the personal details included in the  `typst_files/header.typ` section of this document (the address field is the most obvious thing to change), and use the `cv_copy.md` file to change the copy of your CV.
 
-Once you are done editing, you can compile, make sure you have installed all the requirements you need, and then run `python3 convert.py`. This will convert the document, compile a PDF and save it
+Once you are done editing, you can compile, make sure you have installed all the requirements you need, and then run `python3 convert.py`. This will convert the document, compile a PDF and save it to `cv.pdf`. If you want to save this file somewhere else (like your documents folder for example) then change the variable `OUTPUT_PDF_LOC` in `convert.py`.
+
+## TODO:
++ Create a HTML converter that will seamelessly convert the markdown to a HTML template.
++ Create a header parser that will process the header section of the CV so it displays correctly on Typst.
++ Create a shell script/CLI that can take an input file and then write it to an output file.
++ Create/send a call to a CV checker that checks for common CV issues.
+ 
+
