@@ -4,7 +4,7 @@ import subprocess
 MARKDOWN_LOC = "cv_copy.md"
 TYPST_TEMPLATE_LOC = "typst_files/template.typ"
 OUTPUT_FILE_LOC = "typst_files/cv.typ"
-OUTPUT_PDF_LOC = "../cv.pdf"
+OUTPUT_PDF_LOC = "cv.pdf"
 
 
 def convert_markdown_to_typst(input_text):
