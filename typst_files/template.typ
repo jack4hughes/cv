@@ -25,7 +25,7 @@ Basically it's a competitor/attempted improvment to LaTeX.
   float: true,
   cv_header(
     name: "Jack Hughes",//TODO: need to add name finding to convert.py
-    address:"BS1, Bristol", //TODO: need to add address finding to convert.py
+    address:"BS1 | Bristol", //TODO: need to add address finding to convert.py
     telephone: "07494878784", //TODO: need to add telephone regex to convert.py
     links: (
       linkedin: "https://www.linkedin.com/in/jack-hughes-latchamdirect/",
