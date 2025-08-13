@@ -121,11 +121,24 @@ if __name__ == "__main__":
         OUTPUT_PDF_LOC
         ]
     )
+    
+    # Opens PDF viewer, then immediately returns to your terminal shell/code editor.
+    # This currently only works for MacOS
+    result = subprocess.run([
+    "osascript", "-e", 
+    'tell application "System Events" to return name of first application process whose frontmost is true'
+    ], 
+    capture_output=True, 
+    text=True)
 
-    subprocess.run(
-            [
-                "open", 
-                OUTPUT_PDF_LOC]
-            )
+    current_app = result.stdout.strip()
+
+    subprocess.run(["open", "-g", OUTPUT_PDF_LOC])
+    subprocess.run([
+        "osascript", 
+        "-e", 
+        f'tell application "{current_app}" to activate'
+        ]
+                   )
 
 

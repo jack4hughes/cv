@@ -17,7 +17,7 @@ BS1, Bristol
 - Studied Robotics at UWE. Achieved 68% overall.
 - Designed robot control system for a robotic arm in ROS2 using handheld controller, live camera feeds and gaze-tracking user inputs.
 - Designed embedded systems for robot control, requiring communication between different micro-controllers using UART, interfacing with digital and analog sensors and hardware/software debugging.
-- Trained and evaluated the performance of machine vision models object detection and robot positioning. 
+- Trained and evaluated the performance of machine learning models for object detection and robot positioning. 
 
 ## BA Broadcast Journalism: (2022)
 Studied Journalism at the University of the West of England. 

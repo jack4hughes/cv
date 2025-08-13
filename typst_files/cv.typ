@@ -39,29 +39,27 @@ Basically it's a competitor/attempted improvment to LaTeX.
 <academic-history>
 == BEng Robotics: 2:1 (2025)
 <beng-robotics-21-2025>
-- Designed robot control system for a Kinova Jaco assistive robotic arm
-  using handheld controller and gaze-tracking user inputs.
+- Studied Robotics at UWE. Achieved 68% overall.
+- Designed robot control system for a robotic arm in ROS2 using handheld
+  controller, live camera feeds and gaze-tracking user inputs.
 - Designed embedded systems for robot control, requiring communication
   between different micro-controllers using UART, interfacing with
   digital and analog sensors and hardware/software debugging.
-- Trained and evaluated the performance of machine vision models object
-  detection and robot positioning.
+- Trained and evaluated the performance of machine learning models for
+  object detection and robot positioning.
 
 == BA Broadcast Journalism: (2022)
 <ba-broadcast-journalism-2022>
-- Learned video and audio editing, as well as camera and presenting
-  skills.
-- Worked efficiently to meet highly demanding daily deadlines.
+Studied Journalism at the University of the West of England. \#
+Experience:
 
-= Work Experience:
-<work-experience>
 == Research Internship - Bristol Centre for Machine Vision (2024)
 <research-internship---bristol-centre-for-machine-vision-2024>
 - Acted as research assistant for study that used eye-tracking to detect
-  early signs of dementia using an eye test designed to trigger the
-  #link("https://en.wikipedia.org/wiki/Simon_effect")[Simon Effect.]
-- Conducted statistical analysis on experimental data, finding effect
-  size and significance using parametric and non-parametric methods.
+  early signs of dementia.
+- Conducted statistical analysis on experimental data, testing for
+  normality, then finding effect size and significance using appropriate
+  methods.
 - Completed literature review of other eye-tracking methods used to
   detect early dementia symptoms.
 
@@ -106,11 +104,8 @@ Basically it's a competitor/attempted improvment to LaTeX.
 == Coding Languages:
 <coding-languages>
 - C (Embedded experience with DSPic and STM32 boards.)
-
 - Python (NumPy, Pandas, TensorFlow and MatplotLib),
-
 - MATLAB (Data Analysis, Algorithms and Data Visualisation),
-
 - Basic Rust
 
 == Languages:
