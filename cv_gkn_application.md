@@ -23,12 +23,11 @@ oscilloscopes, function generators and worktop power supplies
 
 # Education:
 
-## UWE: Robotics BEng (Hons): 
-2:1 (2022-2025)
+## UWE: Robotics BEng (Hons): 2:1 (2022-2025)
 
 Studied Robotics at UWE. 
 
-### Final Year Project:
+### Final Year Project
 
 - Designed control system for Assistive Robotic Arm attached to wheelchair.
 - Implemented robotic control system for 6DoF robotic arm using eye-tracking, a
@@ -47,9 +46,8 @@ discuss most pressing requirements.
 - Designed communication system between high level python code and
 microcontroller-powered robotic arm.
 
-## UWE: BA (Hons) Journalism:
-(2019-2022)
-
+## UWE: BA (Hons) Journalism (2019-2022)
+studied journalism at UWE. Graduated 2022.
 # Work experience:
 
 ## Research Internship - Bristol Centre for Machine Vision (2024):
@@ -62,14 +60,14 @@ data-labelling tool to track progress.
 - Completed literature review of other eye-tracking methods used to detect
 early dementia symptoms.
 
-## Marketing Assistant - Latcham (2023 - 2025):
+## Marketing Assistant - Latcham (2023 - 2025)
 
 - Moved Latcham from WordPress web environment to HubSpot, debugging and fixing
 issues with HTML, CSS and JavaScript.
 - Wrote marketing copy for Latcham, improving communication, editing and
 rewriting webpages.
 
-## HR Assistant - Latcham (2019 - 2023):
+## HR Assistant - Latcham (2019 - 2023)
 
 - Moved Latcham from paper-based HR filing system to PeopleHR HR platform.
 - improved budgeting reporting by designing linked Excel documents, reducing

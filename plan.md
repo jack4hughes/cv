@@ -17,3 +17,10 @@ This will produce .typ and .html outputs from a .md input.
 
 # The Implementations:
 At the moment, I'm using some slightly dodgy regex commands to process the document, I need to clean this up at some point! I should seperate the logic that seperates the header and the body from the code that returns a seperate header and body document. 
+
+# Next Steps
+
+1. reimplement parsing for CV header and address details
+2. rename CV.md to `jack-hughes-cv.md`
+3. Set up HTML conversion for website.
+4. Go through and write better comments.

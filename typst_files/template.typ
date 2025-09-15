@@ -11,11 +11,27 @@ Basically it's a competitor/attempted improvment to LaTeX.
 #import "links.typ": links, display_links
 //setting up global variables and functions.
 #set text(region: "GB")
-
+#set text(11pt)
 //Footer logic
 #let today = datetime.today()
 #set page(
   columns: 2,
+)
+
+#show heading.where(
+  level: 1
+): it => text(
+  size: 15pt,
+  weight: "bold",
+  it.body + linebreak()
+)
+
+#show heading.where(
+  level: 2
+): it => text(
+  size: 13pt,
+  weight: "bold",
+  it.body + linebreak(),
 )
 
 //Call to header function inside format.typ
