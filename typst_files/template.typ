@@ -23,7 +23,7 @@ Basically it's a competitor/attempted improvment to LaTeX.
 ): it => text(
   size: 15pt,
   weight: "bold",
-  it.body + linebreak()
+  it.body + parbreak()
 )
 
 #show heading.where(

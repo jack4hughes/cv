@@ -23,7 +23,7 @@ Basically it's a competitor/attempted improvment to LaTeX.
 ): it => text(
   size: 15pt,
   weight: "bold",
-  it.body + linebreak()
+  it.body + parbreak()
 )
 
 #show heading.where(
@@ -67,16 +67,13 @@ Basically it's a competitor/attempted improvment to LaTeX.
 <uwe-robotics-beng-hons>
 2:1 (2022-2025)
 
-Studied Robotics at UWE.
-
 === Final Year Project:
 <final-year-project>
 - Designed control system for Assistive Robotic Arm attached to
   wheelchair.
-- Implemented robotic control system for 6DoF robotic arm using
-  eye-tracking, a camera-switching mechanism, and a handheld controller.
-  Implemented using Python, ROS2 and OpenCV, with real time image
-  processing and object detection.
+- Used ROS2, QT and OpenCV to design a real-time gaze-processing
+  pipleline that detected when a user was looking at a screen, then used
+  this to expand robot control system.
 - Evaluated the performance of multiple control schemes by designing and
   conducting user testing experiments, then analysing task completion
   rates and user satisfaction using standardised tests (NASA TLX and
@@ -84,10 +81,9 @@ Studied Robotics at UWE.
 
 === Group Design and Integration Project:
 <group-design-and-integration-project>
-- worked in group to design and implement a robotic arm for
-  pharmacutical testing.
-- Helped to write and then work to requirements, having regular meetings
-  to discuss most pressing requirements.
+- Helped to write and then work to engineering requirements, having
+  regular meetings to discuss most pressing requirements.
+- Focused on writing modular, extensable and testable code.
 - Designed communication system between high level python code and
   microcontroller-powered robotic arm.
 
